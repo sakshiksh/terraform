@@ -1,3 +1,4 @@
+
 terraform {
   required_version = "~> 1.1"
   required_providers {
@@ -22,7 +23,7 @@ variable "region_name"{
    default = "us-east-1"
 }
 resource "aws_instance" "myec2" {
-  ami                    = "ami-0a0e5d9c7acc336f1"
+  ami                    = "ami-06c68f701d8090592"
   instance_type          = "t2.micro"
   tags = {
     Name = "terraform1"
