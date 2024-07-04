@@ -8,7 +8,6 @@ terraform {
     }
   }
 }
-
 provider "aws" {
   region = var.region_name
   // No need to specify access_key and secret_key when using environment variables
